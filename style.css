@@ -809,7 +809,7 @@ ul {
 }
 @media(max-width: 280px){
   html{
-    width: 150%;
+    width: 190%;
   }
   .row .timeline-box .timeline-item .timeline-text{
 
