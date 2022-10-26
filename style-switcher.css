@@ -1,0 +1,77 @@
+.style-switcher{
+    position: fixed;
+    right:0;
+    top: 60px;
+    padding: 15px;
+    width: 205px;
+    border: 1px solid var(--bg-black-900);
+    background-color: var(--bg-black-100);
+    border-radius: 10px;
+    z-index: 101;
+    transition: all 0.3 ease;
+    color:var(--skin-color);
+font-size: 21px;
+text-align: center;
+transform: translatex(100%)
+}
+.style-switcher.open{
+    transform: translatex(-25px)
+}
+.style-switcher .s-icon{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    height: 44px;
+    width: 40px;
+    margin-top: -15px;
+    border-radius: 500px;
+    font-size: 25px;
+    background-color: white;
+    color:rgb(255, 0, 76);
+    right: 100%;
+    border: 1px solid var(--bg-black-900);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+} 
+.style-switcher .s-icon i{
+    line-height: 40px;
+}
+.style-switcher .style-switcher-toggler{
+    top: 15px;
+}
+.style-switcher .day-night{
+    top: 68px;
+}
+.style-switcher h4{
+    margin: 0 0 10px;
+   
+}
+.style-switcher .colors{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.style-switcher .colors span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border:1px solid rgb(254, 5, 5);
+    cursor: pointer;
+}
+.style-switcher .color-1{
+    background:rgb(34, 5, 254) ;
+}
+.style-switcher .color-2{
+    background:rgb(254, 5, 71) ;
+}
+.style-switcher .color-3{
+    background:rgb(15, 251, 2);;
+}
+.style-switcher .color-4{
+    background:rgb(174, 0, 254);
+}
+.style-switcher .color-5{
+    background:#FF00FF;
+}
